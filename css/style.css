@@ -1,1 +1,11 @@
-
+body{
+    background-color: rgb(101, 153, 237);
+}
+#tittlebox{
+    font-style: normal;
+    width: 50%;
+    height: 20%;
+    background-color: blue;
+    margin-top: 50px;
+    border-radius: 30px; 
+}

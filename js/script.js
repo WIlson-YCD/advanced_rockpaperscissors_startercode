@@ -1,4 +1,4 @@
-//Class 1:
+//Class 1:  +check+
         // Fork and clone the repo and set up your project workspace and link files
         // Write HTML for your project
 //Class 2:  
