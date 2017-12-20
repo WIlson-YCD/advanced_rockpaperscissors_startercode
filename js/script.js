@@ -23,6 +23,31 @@
 
 
 //FUNCTIONS
+var CPUchoices = [ "rock" , "paper" , "scissors" ];
+
+var Player1choices = [ "rock" , "paper" , "scissors" ];
+//console.log(CPUchoices.length);
+//console.log(Player1choices.length);
+
+function CPUchooses(){
+        return CPUchoices[Math.floor(Math.random()*3)];
+}
+console.log(CPUchooses());
+
+function Player1chooses(){
+        return Player1choices[Math.floor(Math.random()*3)];
+}
+console.log(Player1chooses());
+
+var W = "YOU WIN!"
+var L = "YOU LOST"
+var T = "TIE!"
+if ( Player1chooses === CPUchooses){
+        console.log(T)
+}
+else{
+        console.log(" :/ ")
+}
 
 
 
